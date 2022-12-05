@@ -1,0 +1,62 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-top: 5px;
+}
+.password{
+    margin-top: 5px;
+}
+.email{
+    margin-top: 5px;
+}
+.button{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+}
+.row{
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.wrapper{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    flex-direction: column;
+    background: rgb(58, 85, 155);
+    height: 500px;
+    width: 375px;
+    border-radius: 30px;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subtitle{
+    margin-top: 20px;
+}
+.input{
+    padding: 10px 160px 10px 10px;
+    border-radius: 7px;
+    border: none;
+}
